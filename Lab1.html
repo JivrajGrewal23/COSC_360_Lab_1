@@ -1,27 +1,31 @@
-<body>
-    <header>
-        <h1>COSC 360</h1>
-        <h2> Lab 1 - HTML</h2>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#Description_page">Description</a></li>
-                    <li><a href="#Related_photos">Related photos</a></li>
-                    <li><a href="#Reviews_page"> Reviews</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h3>
-            <a id="Description_page">Description</a>
-        </h3>
+<!DOCTYPE html>
+<html lang="en">
+<title>COSC 360 - Lab 1</title>
+<header>
+    <h1>COSC 360</h1>
+    <h2> Lab 1 - HTML</h2>
+    <nav>
+        <ul>
+            <li><a href="#Description_page">Description</a></li>
+            <li><a href="#Related_photos">Related photos</a></li>
+            <li><a href="#Reviews_page"> Reviews</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <p>Photo by Myriams-Fhoto</p>
+<body>
+    <h3>
+        <a id="Description_page">Description</a>
+    </h3>
+
+    <div>
+        <p>Photo by Myriams-Fhotos</p>
         <p>This photo of ice crystals on a branch. The image is from
             <a href="http://www.pixbay.com/">Pixbay</a> and was taken
             with a Canon EOS 650D camera.
         </p>
         <figure>
-            <img src="images/eiskristalle-1938842_640.jpg" />
+            <img src="images/eiskristalle-1938842_640.jpg" title="ice crystals on branch" />
             <figcaption><em>Ice crystals on a branch</em></figcaption>
 
         </figure>
@@ -32,45 +36,60 @@
             <img src="images/social/facebook_16.png" />
             <img src="images/social/flickr_16.png" />
         </p>
+    </div>
 
-        <h3>
-            <a id="Related_photos">Related Photos</a>
-        </h3>
+
+
+
+    <h3>
+        <a id="Related_photos">Related Photos</a>
+    </h3>
+    <div>
         <p>
-            <a href="images/frost-490807_640.jpg"><img src="images/frost-490807_640.jpg" title="frost"
-                    height="100" /></a>
+            <a href="images/frost-490807_640.jpg"><img src="images/frost-490807_640.jpg" title="frost" height="100"
+                    alt="related photo" /></a>
             <a href="images/ice-crystal-64157_640.jpg"><img src="images/ice-crystal-64157_640.jpg" title="ice crystal"
-                    height="100" /></a>
+                    height="100" alt="related photo" /></a>
             <a href="images/hoarfrost-639980_640.jpg"><img src="images/hoarfrost-639980_640.jpg" title="hoar frost"
-                    height="100" /></a>
+                    height="100" alt="related photo" /></a>
         </p>
-        <h3>
-            <a id="Reviews_page">Reviews</a>
+    </div>
+    <h3>
+        <a id="Reviews_page">Reviews</a>
 
-        </h3>
-        <div>
-            <p>
-                By Bob on <time>January 11, 2017</time>
-            </p>
-            <p>
-                Those are some nice ice photos.
-            </p>
-        </div>
-        <hr>
-        <div>
-            <p>
-                By Alice on <time>2016-10-1</time>
-            </p>
-            <p>
-                Beautiful photos.
-            </p>
-        </div>
-        <hr>
-
+    </h3>
+    <div>
         <p>
-            <samll>
-                Copyright &copy; 2021 COSC Lab 1
-            </samll>
+            By Bob on <time>January 11, 2017</time>
         </p>
+        <p>
+            Those are some nice ice photos.
+        </p>
+    </div>
+    <hr>
+    <div>
+        <p>
+            By Alice on <time>October 10, 2016</time>
+        </p>
+        <p>
+            Beautiful photos.
+        </p>
+    </div>
+    <hr>
+    <footer>
+        <p>
+            <a href="#">Home</a>
+            |
+            <a href="#">Browse</a>
+            |
+            <a href="#">Search</a>
+        </p>
+        <p><em>Copyright &copy; 2021 COSC Lab 1</em></p>
+
         <hr>
+
+    </footer>
+
 </body>
+
+</html>
